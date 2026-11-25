@@ -21,17 +21,17 @@
 
 ```ts
 const dave = {
-  role: "Freelance Full Stack Developer",
-  stack: ["TypeScript", "React.js", "Node.js"],
-  obsession: "turning complex problems into elegant, scalable solutions",
+  role: 'Freelance Full Stack Developer',
+  stack: ['TypeScript', 'React.js', 'Node.js'],
+  obsession: 'turning complex problems into elegant, scalable solutions',
   builds: [
-    "intuitive UIs",
-    "high-performance servers",
-    "custom CLI tools",
-    "CI/CD pipelines",
+    'intuitive UIs',
+    'high-performance servers',
+    'custom CLI tools',
+    'CI/CD pipelines',
   ],
-  ships: "to production — clean, observable, scalable",
-  mindset: "always hunting the next ambitious challenge",
+  ships: 'to production — clean, observable, scalable',
+  mindset: 'always hunting the next ambitious challenge',
 
   collaborate(you: Developer | Founder | Dreamer): Project {
     return compile(you.idea); // dreams compile to life ✨
